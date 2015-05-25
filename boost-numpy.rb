@@ -7,6 +7,7 @@ class BoostNumpy < Formula
   head 'https://github.com/personalrobotics/Boost.NumPy.git', :branch => 'master'
 
   depends_on 'cmake' => :build
+  depends_on 'numpy'
   depends_on 'boost-python'
 
   def install
